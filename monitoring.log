@@ -1,0 +1,38 @@
+2026-10-14 11:02:28,175 - ml_monitoring - INFO - ============================================================
+2026-10-14 11:02:28,175 - ml_monitoring - INFO - Starting ML Monitoring - System & Data Metrics Analysis
+2026-10-14 11:02:28,175 - ml_monitoring - INFO - ============================================================
+2026-10-14 11:02:28,175 - ml_monitoring - INFO - Loading production logs from data/logs.csv
+2026-10-14 11:02:33,194 - ml_monitoring - INFO - ============================================================
+2026-10-14 11:02:33,194 - ml_monitoring - INFO - Starting ML Monitoring - System & Data Metrics Analysis
+2026-10-14 11:02:33,194 - ml_monitoring - INFO - ============================================================
+2026-10-14 11:02:33,194 - ml_monitoring - INFO - Loading production logs from data/logs.csv
+2026-10-14 11:19:21,679 - ml_monitoring - INFO - ============================================================
+2026-10-14 11:19:21,679 - ml_monitoring - INFO - Starting ML Monitoring - System & Data Metrics Analysis
+2026-10-14 11:19:21,679 - ml_monitoring - INFO - ============================================================
+2026-10-14 11:19:21,679 - ml_monitoring - INFO - Loading production logs from data/logs.csv
+2026-10-14 11:19:21,682 - ml_monitoring - INFO - Loaded 17 log entries
+2026-10-14 11:19:21,682 - ml_monitoring - INFO - Loading training statistics from data/training_stats.json
+2026-10-14 11:24:53,592 - ml_monitoring - INFO - ============================================================
+2026-10-14 11:24:53,593 - ml_monitoring - INFO - Starting ML Monitoring - System & Data Metrics Analysis
+2026-10-14 11:24:53,593 - ml_monitoring - INFO - ============================================================
+2026-10-14 11:24:53,593 - ml_monitoring - INFO - Loading production logs from data/logs.csv
+2026-10-14 11:24:53,596 - ml_monitoring - INFO - Loaded 17 log entries
+2026-10-14 11:24:53,596 - ml_monitoring - INFO - Loading training statistics from data/training_stats.json
+2026-10-14 11:24:53,598 - ml_monitoring - INFO - Filtered to 17 entries from last 7 days (since 2025-12-18 12:09:00+00:00)
+2026-10-14 11:24:53,598 - ml_monitoring - INFO - Computing system performance metrics
+2026-10-14 11:24:53,600 - ml_monitoring - INFO - System metrics computed
+2026-10-14 11:24:53,600 - ml_monitoring - INFO - Computing data quality and drift metrics
+2026-10-14 11:24:53,601 - ml_monitoring - INFO - Categorical feature distribution comparison:
+2026-10-14 11:24:53,602 - ml_monitoring - INFO - Analysis complete - check monitoring.log for structured logs
+2026-10-14 11:34:26,305 - ml_monitoring - INFO - ============================================================
+2026-10-14 11:34:26,306 - ml_monitoring - INFO - Starting ML Monitoring - System & Data Metrics Analysis
+2026-10-14 11:34:26,306 - ml_monitoring - INFO - ============================================================
+2026-10-14 11:34:26,306 - ml_monitoring - INFO - Loading production logs from data/logs.csv
+2026-10-14 11:34:26,312 - ml_monitoring - INFO - Loaded 17 log entries
+2026-10-14 11:34:26,312 - ml_monitoring - INFO - Loading training statistics from data/training_stats.json
+2026-10-14 11:34:26,313 - ml_monitoring - INFO - Filtered to 17 entries from last 7 days (since 2025-12-18 12:09:00+00:00)
+2026-10-14 11:34:26,313 - ml_monitoring - INFO - Computing system performance metrics
+2026-10-14 11:34:26,316 - ml_monitoring - INFO - System metrics computed
+2026-10-14 11:34:26,316 - ml_monitoring - INFO - Computing data quality and drift metrics
+2026-10-14 11:34:26,317 - ml_monitoring - INFO - Categorical feature distribution comparison:
+2026-10-14 11:34:26,318 - ml_monitoring - INFO - Analysis complete - check monitoring.log for structured logs

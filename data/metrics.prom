@@ -1,0 +1,15 @@
+# HELP latency_ms ML monitoring metric
+# TYPE latency_ms gauge
+latency_ms 0.004
+# HELP feature_1 ML monitoring metric
+# TYPE feature_1 gauge
+feature_1 7.442002138108547
+# HELP feature_2 ML monitoring metric
+# TYPE feature_2 gauge
+feature_2 1.7384735646096081
+# HELP psi_feature_1 ML monitoring metric
+# TYPE psi_feature_1 gauge
+psi_feature_1 0.23949762946447295
+# HELP auc ML monitoring metric
+# TYPE auc gauge
+auc 0.8494420111956054

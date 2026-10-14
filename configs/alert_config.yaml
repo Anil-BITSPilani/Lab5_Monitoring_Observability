@@ -1,0 +1,65 @@
+# Alert Configuration for ML Monitoring
+# Define thresholds for automatic alert triggering
+
+system_metrics:
+  error_rate:
+    threshold: 1.0  # Alert if error rate > 1%
+    severity: "critical"
+    message: "System error rate exceeded threshold"
+  
+  latency_p95:
+    threshold: 100  # Alert if p95 latency > 100ms
+    severity: "warning"
+    message: "High latency detected (p95)"
+  
+  latency_p99:
+    threshold: 200  # Alert if p99 latency > 200ms
+    severity: "critical"
+    message: "Very high latency detected (p99)"
+
+data_drift:
+  psi:
+    threshold: 0.2  # Alert if PSI > 0.2 (major drift)
+    severity: "critical"
+    message: "Significant data drift detected"
+  
+  psi_warning:
+    threshold: 0.1  # Warn if PSI > 0.1 (minor drift)
+    severity: "warning"
+    message: "Minor data drift detected"
+
+model_performance:
+  auc:
+    min_threshold: 0.75  # Alert if AUC < 0.75
+    severity: "critical"
+    message: "Model AUC below acceptable threshold"
+  
+  auc_degradation:
+    percent_drop: 10  # Alert if AUC drops > 10% from baseline
+    severity: "warning"
+    message: "Model performance degradation detected"
+  
+  recall:
+    min_threshold: 0.70  # Alert if recall < 0.70
+    severity: "warning"
+    message: "Model recall below threshold"
+
+data_quality:
+  null_values:
+    max_percent: 5  # Alert if > 5% null values
+    severity: "critical"
+    message: "High percentage of null values detected"
+  
+  schema_validation:
+    enabled: true
+    severity: "critical"
+    message: "Schema validation failed"
+
+# Alert routing configuration
+routing:
+  critical:
+    channels: ["email", "slack", "pagerduty"]
+  warning:
+    channels: ["email", "slack"]
+  info:
+    channels: ["slack"]

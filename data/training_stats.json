@@ -1,0 +1,20 @@
+{
+    "feature_1": {
+        "mean": 10.0,
+        "std": 2.5
+    },
+    "feature_2": {
+        "mean": 1.5,
+        "std": 0.8
+    },
+    "feature_3": {
+        "value_counts": {
+            "A": 1000,
+            "B": 800,
+            "C": 500
+        }
+    },
+    "model_performance": {
+        "auc": 0.92
+    }
+}

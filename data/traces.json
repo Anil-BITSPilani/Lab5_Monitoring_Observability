@@ -1,0 +1,582 @@
+[
+  {
+    "trace_id": "trace-0001",
+    "operation": "ml_prediction_request_1",
+    "start_time": "2026-10-14T11:43:56.973256",
+    "end_time": "2026-10-14T11:43:56.973849",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 7.047901465490627,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 31.233466090701015,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 5.593232404335842,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0002",
+    "operation": "ml_prediction_request_2",
+    "start_time": "2026-10-14T11:43:56.974120",
+    "end_time": "2026-10-14T11:43:56.974127",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 11.319526253069466,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 49.19967370408,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 5.012973511745958,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0003",
+    "operation": "ml_prediction_request_3",
+    "start_time": "2026-10-14T11:43:56.974220",
+    "end_time": "2026-10-14T11:43:56.974225",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 7.755828437942485,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 60.17786608144824,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 7.202100627231079,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0004",
+    "operation": "ml_prediction_request_4",
+    "start_time": "2026-10-14T11:43:56.974360",
+    "end_time": "2026-10-14T11:43:56.974366",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 8.70526401934109,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 72.89655926490227,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 3.934574835965027,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0005",
+    "operation": "ml_prediction_request_5",
+    "start_time": "2026-10-14T11:43:56.974461",
+    "end_time": "2026-10-14T11:43:56.974466",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 10.770498828568293,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 27.142535733084927,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 2.893141202806389,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0006",
+    "operation": "ml_prediction_request_6",
+    "start_time": "2026-10-14T11:43:56.974521",
+    "end_time": "2026-10-14T11:43:56.974524",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 13.348998626779277,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 75.8105402874861,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 5.095495864190847,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0007",
+    "operation": "ml_prediction_request_7",
+    "start_time": "2026-10-14T11:43:56.974619",
+    "end_time": "2026-10-14T11:43:56.974646",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 6.90771798863051,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 61.92717503757865,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 2.1694058660484656,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0008",
+    "operation": "ml_prediction_request_8",
+    "start_time": "2026-10-14T11:43:56.974720",
+    "end_time": "2026-10-14T11:43:56.974723",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 12.938650895193966,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 45.70830240400216,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 6.941575990524975,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0009",
+    "operation": "ml_prediction_request_9",
+    "start_time": "2026-10-14T11:43:56.974777",
+    "end_time": "2026-10-14T11:43:56.974781",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 13.655249620746433,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 53.88593693584294,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 2.2355789211931283,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0010",
+    "operation": "ml_prediction_request_10",
+    "start_time": "2026-10-14T11:43:56.974838",
+    "end_time": "2026-10-14T11:43:56.974842",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 14.223153236972314,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 73.10735760892034,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 7.761810660915398,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0011",
+    "operation": "ml_prediction_request_11",
+    "start_time": "2026-10-14T11:43:56.974909",
+    "end_time": "2026-10-14T11:43:56.974912",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 8.201640394701593,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 28.104493236930914,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 2.457103075510507,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0012",
+    "operation": "ml_prediction_request_12",
+    "start_time": "2026-10-14T11:43:56.974978",
+    "end_time": "2026-10-14T11:43:56.974982",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 6.485034612936614,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 39.92962819397746,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 3.3373684491624616,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0013",
+    "operation": "ml_prediction_request_13",
+    "start_time": "2026-10-14T11:43:56.975039",
+    "end_time": "2026-10-14T11:43:56.975043",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 9.158584343021701,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 53.195158177175934,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 3.307112027421228,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0014",
+    "operation": "ml_prediction_request_14",
+    "start_time": "2026-10-14T11:43:56.975111",
+    "end_time": "2026-10-14T11:43:56.975114",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 6.069975267074192,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 78.65581375375814,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 2.369168033385139,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0015",
+    "operation": "ml_prediction_request_15",
+    "start_time": "2026-10-14T11:43:56.975167",
+    "end_time": "2026-10-14T11:43:56.975170",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 5.666846926399705,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 24.66930086916464,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 3.5086265537417702,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0016",
+    "operation": "ml_prediction_request_16",
+    "start_time": "2026-10-14T11:43:56.975222",
+    "end_time": "2026-10-14T11:43:56.975225",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 14.688794418409788,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 33.50896781544993,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 3.8616098388970155,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0017",
+    "operation": "ml_prediction_request_17",
+    "start_time": "2026-10-14T11:43:56.975305",
+    "end_time": "2026-10-14T11:43:56.975309",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 12.374647080771739,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 50.32830265297281,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 7.2747657284932625,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0018",
+    "operation": "ml_prediction_request_18",
+    "start_time": "2026-10-14T11:43:56.975360",
+    "end_time": "2026-10-14T11:43:56.975363",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 13.917561731611663,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 30.45180077382341,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 2.3907030643746188,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0019",
+    "operation": "ml_prediction_request_19",
+    "start_time": "2026-10-14T11:43:56.975414",
+    "end_time": "2026-10-14T11:43:56.975418",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 9.839917123951759,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 70.27379772183343,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 4.525597460635433,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  },
+  {
+    "trace_id": "trace-0020",
+    "operation": "ml_prediction_request_20",
+    "start_time": "2026-10-14T11:43:56.975483",
+    "end_time": "2026-10-14T11:43:56.975487",
+    "spans": [
+      {
+        "span_name": "preprocess",
+        "duration_ms": 7.7543437906733494,
+        "metadata": {
+          "features_extracted": 3
+        }
+      },
+      {
+        "span_name": "model_inference",
+        "duration_ms": 53.43839790248972,
+        "metadata": {
+          "model": "fraud_detector_v2"
+        }
+      },
+      {
+        "span_name": "postprocess",
+        "duration_ms": 2.339169531817379,
+        "metadata": {
+          "output_formatted": true
+        }
+      }
+    ]
+  }
+]
